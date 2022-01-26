@@ -1,0 +1,34 @@
+.sidebar {
+  background: #161616;
+  position: absolute;
+  z-index: 20;
+  top: 20vh;
+  width: 20rem;
+  height: 30vh;
+  color: white;
+}
+
+.container {
+  margin-top: -5rem;
+}
+
+.sidebar-header {
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+.sidebar-menu {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-menu-item {
+  padding: 0.7rem 0 0.7rem 1rem;
+}
+
+.sidebar-menu-item:hover {
+  background: #484848;
+  cursor: pointer;
+}
