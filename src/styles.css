@@ -1,0 +1,22 @@
+.root {
+  position: fixed;
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10em auto;
+  grid-template-rows: 3em auto;
+  grid-template-areas: 'header header' 'sidebar content';
+}
+
+.header {
+  grid-area: header;
+}
+.content {
+  grid-area: content;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.sidebar {
+  grid-area: sidebar;
+}
