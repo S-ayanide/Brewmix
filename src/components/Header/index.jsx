@@ -24,8 +24,21 @@ const Header = () => {
             justifyContent: 'space-evenly',
           }}
         >
-          <li>Share</li>
-          <li>Support</li>
+          <li>
+            <img
+              style={{ cursor: 'pointer', height: '1.5rem', width: '1.5rem' }}
+              src={'./icons/share.svg'}
+              alt="Share"
+            />
+          </li>
+          <li>
+            <img
+              style={{ cursor: 'pointer', height: '1.5rem', width: '1.5rem' }}
+              onClick={() => window.open('https://coindrop.to/sayanide')}
+              src={'./icons/heart.png'}
+              alt="Support"
+            />
+          </li>
         </ul>
       </div>
     </div>
