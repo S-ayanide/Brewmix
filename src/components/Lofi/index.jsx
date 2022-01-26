@@ -41,6 +41,8 @@ const Lofi = ({ mood }) => {
           },
         }}
       />
+
+      {/* Vibe Audios */}
       <ReactPlayer
         width="100%"
         height="100%"
