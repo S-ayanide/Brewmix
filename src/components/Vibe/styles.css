@@ -1,0 +1,41 @@
+.vibe {
+  background: #161616;
+  position: absolute;
+  z-index: 30;
+  top: 35vh;
+  right: 0;
+  text-align: right;
+  width: 14rem;
+  height: 30vh;
+  color: white;
+}
+
+.vibe-header {
+  margin-top: 5rem;
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.vibe-menu {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+}
+
+.vibe-menu-item {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.7rem 1rem 0.7rem 0;
+}
+
+.vibeItem {
+  width: 9rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.vibe-menu-item:hover {
+  background: #484848;
+  cursor: pointer;
+}
