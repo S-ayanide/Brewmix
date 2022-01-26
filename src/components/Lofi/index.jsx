@@ -1,8 +1,20 @@
 import React from 'react'
 import ReactPlayer from 'react-player'
+import { data } from '../../data'
 import './styles.css'
 
-const Lofi = () => {
+const Lofi = ({ mood }) => {
+  const [lofiTrack, setLofiTrack] = React.useState(
+    'https://www.youtube.com/embed/5qap5aO4i9A',
+  )
+
+  React.useEffect(() => {
+    data.forEach((item) => {
+      if (item.mood.toLowerCase() === mood.toLowerCase())
+        setLofiTrack(item.lofi)
+    })
+  }, [mood])
+
   return (
     <div className="frame">
       <ReactPlayer
@@ -11,7 +23,7 @@ const Lofi = () => {
         playing
         control={false}
         volume={1}
-        url="https://www.youtube.com/embed/5qap5aO4i9A"
+        url={lofiTrack}
         config={{
           file: {
             attributes: {

@@ -1,18 +1,52 @@
 import React from 'react'
 import './styles.css'
 
-const Sidebar = () => {
+const Sidebar = ({ setMood }) => {
+  const handleMoodChange = (mood) => {
+    setMood(mood)
+  }
+
   return (
     <div className="sidebar">
       <div className="container">
         <div className="sidebar-header">Choose Mood</div>
         <ul className="sidebar-menu">
-          <li className="sidebar-menu-item">📚 Reading</li>
-          <li className="sidebar-menu-item">💻 Coding</li>
-          <li className="sidebar-menu-item">🎶 Bollywood</li>
-          <li className="sidebar-menu-item">🌘 Night Study</li>
-          <li className="sidebar-menu-item">🎺 Jazzy</li>
-          <li className="sidebar-menu-item">🌅 Early Morning</li>
+          <li
+            className="sidebar-menu-item"
+            onClick={() => handleMoodChange('reading')}
+          >
+            📚 Reading
+          </li>
+          <li
+            className="sidebar-menu-item"
+            onClick={() => handleMoodChange('coding')}
+          >
+            💻 Coding
+          </li>
+          <li
+            className="sidebar-menu-item"
+            onClick={() => handleMoodChange('bollywood')}
+          >
+            🎶 Bollywood
+          </li>
+          <li
+            className="sidebar-menu-item"
+            onClick={() => handleMoodChange('night time')}
+          >
+            🌘 Night Time
+          </li>
+          <li
+            className="sidebar-menu-item"
+            onClick={() => handleMoodChange('jazzy')}
+          >
+            🎺 Jazzy
+          </li>
+          <li
+            className="sidebar-menu-item"
+            onClick={() => handleMoodChange('early morning')}
+          >
+            🌅 Early Morning
+          </li>
         </ul>
       </div>
     </div>
