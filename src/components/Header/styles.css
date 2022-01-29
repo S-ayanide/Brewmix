@@ -7,3 +7,17 @@
   height: 5rem;
   color: white;
 }
+
+.navbar {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem 0;
+  justify-content: space-between;
+}
+
+.hamburger {
+  padding: 1rem 0;
+  height: 1.5rem;
+  width: 1.5rem;
+}

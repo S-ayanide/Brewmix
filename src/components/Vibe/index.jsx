@@ -10,7 +10,7 @@ const Vibe = ({ forestClick, rainClick, setRainClick, setForestClick }) => {
   }
 
   return (
-    <div className="vibe">
+    <div className="vibe desktop">
       <div className="vibe-header">Choose Vibe</div>
       <ul className="vibe-menu">
         <li className="vibe-menu-item">

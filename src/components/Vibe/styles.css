@@ -1,13 +1,17 @@
 .vibe {
-  background: #161616;
   position: absolute;
   z-index: 30;
-  top: 35vh;
+  top: 36%;
   right: 0;
   text-align: right;
   width: 14rem;
   height: 30vh;
   color: white;
+  background: rgba(0, 0, 0, 0.45);
+  box-shadow: 0 8px 32px 0 rgba(156, 156, 156, 0.37);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border-radius: 10px;
 }
 
 .vibe-header {

@@ -8,7 +8,6 @@ const Lofi = ({ mood }) => {
   const [lofiTrack, setLofiTrack] = React.useState(
     'https://www.youtube.com/embed/5qap5aO4i9A',
   )
-  const [vibeTrack, setVibeTrack] = React.useState('')
   const [rainClick, setRainClick] = React.useState(false)
   const [forestClick, setForestClick] = React.useState(false)
 
@@ -18,11 +17,6 @@ const Lofi = ({ mood }) => {
         setLofiTrack(item.lofi)
     })
   }, [mood])
-
-  // React.useEffect(() => {
-  //   if (rainClick === true) setVibeTrack('https://sndup.net/rg8h/d')
-  //   if (forestClick === true) setVibeTrack('https://sndup.net/zq6w/d')
-  // }, [rainClick, forestClick])
 
   return (
     <div className="frame">
