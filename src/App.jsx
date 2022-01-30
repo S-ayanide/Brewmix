@@ -18,6 +18,12 @@ const App = () => {
       <main className="content">
         <Lofi mood={lofiMood} />
       </main>
+      <div className="footer">
+        Created with ❤️ by{' '}
+        <a style={{ color: 'white' }} href="https://twitter.com/s_ayanide">
+          @s_ayanide
+        </a>
+      </div>
     </div>
   )
 }

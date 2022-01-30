@@ -30,3 +30,14 @@ code {
     display: block;
   }
 }
+
+.footer {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 30;
+  bottom: 0;
+  padding: 0.8rem 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+}

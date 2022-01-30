@@ -25,8 +25,8 @@ const Header = () => {
         {socialMenuOpen && (
           <div className="socialDiv">
             <FacebookShareButton
-              url="http://localhost:3000/"
-              quote="Hey! Check out this amazing LoFi chilling zone I found out about called brewmix."
+              url="https://www.brewmix.studio/"
+              quote="Hey! Check out this amazing LoFi chilling zone I found out about called Brewmix."
               hastag="#lofi"
             >
               <img
@@ -35,8 +35,8 @@ const Header = () => {
               />
             </FacebookShareButton>
             <TelegramShareButton
-              url="http://localhost:3000/"
-              title="Hey! Check out this amazing LoFi chilling zone I found out about called brewmix."
+              url="https://www.brewmix.studio/"
+              title="Hey! Check out this amazing LoFi chilling zone I found out about called Brewmix."
             >
               <img
                 style={{ height: '2rem', width: '2rem' }}
@@ -44,8 +44,8 @@ const Header = () => {
               />
             </TelegramShareButton>
             <TwitterShareButton
-              url="http://localhost:3000/"
-              title="Hey! Check out this amazing LoFi chilling zone I found out about called brewmix."
+              url="https://www.brewmix.studio/"
+              title="Hey! Check out this amazing LoFi chilling zone I found out about called Brewmix."
               via="@s_ayanide"
             >
               <img
@@ -54,8 +54,8 @@ const Header = () => {
               />
             </TwitterShareButton>
             <WhatsappShareButton
-              url="http://localhost:3000/"
-              title="Hey! Check out this amazing LoFi chilling zone I found out about called brewmix."
+              url="https://www.brewmix.studio/"
+              title="Hey! Check out this amazing LoFi chilling zone I found out about called Brewmix."
             >
               <img
                 style={{ height: '2rem', width: '2rem' }}
