@@ -15,15 +15,23 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <!--  Essential META Tags -->
+    <meta property="og:title" content="Brewmix" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="https://i.ibb.co/pXnhyfc/BREWMIX.png" />
+    <meta property="og:url" content="https://www.brewmix.studio/" />
+    <meta name="twitter:card" content="https://i.ibb.co/pXnhyfc/BREWMIX.png" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
+    <!--  Non-Essential, But Recommended -->
+    <meta
+      property="og:description"
+      content="Brewmix is a place to chill and relax with lofi while you get about your day."
+    />
+    <meta property="og:site_name" content="Brewmix" />
+    <meta name="twitter:image:alt" content="Brewmix Image" />
+
+    <!--  Non-Essential, But Required for Analytics -->
+    <meta name="twitter:site" content="@s_ayanide" />
     <title>Brewmix</title>
   </head>
   <body>
