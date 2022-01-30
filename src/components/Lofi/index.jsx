@@ -1,4 +1,7 @@
+import { useStoreState } from 'easy-peasy'
 import React from 'react'
+import InputRange from 'react-input-range'
+import 'react-input-range/lib/css/index.css'
 import ReactPlayer from 'react-player'
 import { data } from '../../data'
 import Vibe from '../Vibe'
@@ -10,6 +13,12 @@ const Lofi = ({ mood }) => {
   )
   const [rainClick, setRainClick] = React.useState(false)
   const [forestClick, setForestClick] = React.useState(false)
+  const [trackVolume, setTrackVolume] = React.useState(1)
+  const [vibeVolume, setVibeVolume] = React.useState(0.3)
+
+  // Easy Peasy States
+  const rainClickMobile = useStoreState((state) => state.rainClickMobile)
+  const forestClickMobile = useStoreState((state) => state.forestClickMobile)
 
   React.useEffect(() => {
     data.forEach((item) => {
@@ -25,7 +34,7 @@ const Lofi = ({ mood }) => {
         height="100%"
         playing
         control={false}
-        volume={1}
+        volume={trackVolume}
         url={lofiTrack}
         config={{
           file: {
@@ -42,7 +51,7 @@ const Lofi = ({ mood }) => {
         height="100%"
         playing={rainClick}
         control={true}
-        volume={1}
+        volume={vibeVolume}
         url={'https://sndup.net/rg8h/d'}
       />
       <ReactPlayer
@@ -50,9 +59,29 @@ const Lofi = ({ mood }) => {
         height="100%"
         playing={forestClick}
         control={true}
-        volume={1}
+        volume={vibeVolume}
         url={'https://sndup.net/zq6w/d'}
       />
+      <div className="trackVolumeController">
+        <div style={{ display: 'flex', marginLeft: '1rem' }}>
+          <p className="highlight">Track</p>
+          <InputRange
+            maxValue={100}
+            minValue={0}
+            value={trackVolume * 100}
+            onChange={(value) => setTrackVolume(value * 0.01)}
+          />
+        </div>
+        <div style={{ display: 'flex', marginLeft: '1rem', marginTop: '2rem' }}>
+          <p className="highlight">Vibe</p>
+          <InputRange
+            maxValue={100}
+            minValue={0}
+            value={vibeVolume * 100}
+            onChange={(value) => setVibeVolume(value * 0.01)}
+          />
+        </div>
+      </div>
       <Vibe
         rainClick={rainClick}
         forestClick={forestClick}

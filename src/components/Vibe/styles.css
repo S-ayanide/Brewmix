@@ -14,6 +14,11 @@
   border-radius: 10px;
 }
 
+.vibe-mb {
+  color: white;
+  margin-left: 1rem;
+}
+
 .vibe-header {
   margin-top: 5rem;
   font-weight: 800;
@@ -42,4 +47,17 @@
 .vibe-menu-item:hover {
   background: #484848;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .vibe-menu-item {
+    justify-content: flex-start;
+  }
+  .vibeItem {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .vibeName {
+    margin-left: 1rem;
+  }
 }
