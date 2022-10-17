@@ -1,9 +1,25 @@
-# Brewmix
+<div align="center">
+  <a href="http://brewmix.studio"><img src="https://i.ibb.co/GQffCtr/Screenshot-2022-10-17-at-3-25-18-PM.png" alt="Brewmix" height=170></a>
+  <br />
+  <h3>A Virtual cafeteria that lets you chill and vibe with Lo-Fi and relax</h3>
+  <a href="https://github.com/S-ayanide/Brewmix/blob/main/LICENSE">
+    <img alt="MIT License" src="https://img.shields.io/github/license/S-ayanide/Brewmix" />
+  </a>
+  <img alt="Star" src="https://img.shields.io/github/stars/S-ayanide/Brewmix" />
+  <br />
+  <a href="https://twitter.com/s_ayanide">
+    <img alt="Twitter" src="https://img.shields.io/twitter/url.svg?label=%40s_ayanide&style=social&url=https%3A%2F%2Ftwitter.com%2Fs_ayanide" />
+  </a>
+  <br />
+  <br />
+  <div>
+    http://brewmix.studio
+  </div>
+  <p>👉 If you like this repo then please give it a ⭐️</p>
+  <br />
+</div>
 
-A Virtual cafeteria that lets you chill and vibe with Lo-Fi and relax
 <img src="./assets/brewmix.gif" alt="Brewmix GIF" />
-
-### 👉 If you like this repo then please give it a ⭐️
 
 # Features
 
