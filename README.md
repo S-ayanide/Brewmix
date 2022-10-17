@@ -2,7 +2,7 @@
   <a href="http://brewmix.studio"><img src="https://i.ibb.co/GQffCtr/Screenshot-2022-10-17-at-3-25-18-PM.png" alt="Brewmix" height=170></a>
   <br />
   <h3>A Virtual cafeteria that lets you chill and vibe with Lo-Fi and relax</h3>
-  <a href="https://github.com/S-ayanide/Brewmix/blob/main/LICENSE">
+  <a href="https://github.com/S-ayanide/Brewmix/blob/master/LICENSE">
     <img alt="MIT License" src="https://img.shields.io/github/license/S-ayanide/Brewmix" />
   </a>
   <img alt="Star" src="https://img.shields.io/github/stars/S-ayanide/Brewmix" />
