@@ -21,6 +21,14 @@
 
 <img src="./assets/brewmix.gif" alt="Brewmix GIF" />
 
+Introducing Brewmix, an open-source project that allows you to relax and unwind with the smooth sounds of Lo-Fi music. The project is built with React, Javascript, and easy-peasy for state management, providing a seamless and user-friendly experience.
+
+This project features a virtual cafeteria setting where users can sit back, relax, and enjoy a curated selection of Lo-Fi tracks. The music player has a variety of controls, including play/pause, volume, and track changing, allowing users to customize their listening experience.
+
+The user interface is designed to be minimalistic and visually pleasing, with a focus on providing a calming and soothing atmosphere. The project also includes an option for users to switch between different ambient café sounds such as rain and the sound of the forest, to enhance the atmosphere.
+
+Whether you're looking to study, relax, or just unwind, Brewmix provides the perfect background music to help you focus and de-stress. It's perfect for anyone who loves Lo-Fi music and wants to create a chill and cozy atmosphere.
+
 # Features
 
 * Listen to lofi based on your mood
