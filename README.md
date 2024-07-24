@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="http://brewmix.studio"><img src="https://i.ibb.co/GQffCtr/Screenshot-2022-10-17-at-3-25-18-PM.png" alt="Brewmix" height=170></a>
+  <a href="https://brewmix.vercel.app"><img src="https://i.ibb.co/GQffCtr/Screenshot-2022-10-17-at-3-25-18-PM.png" alt="Brewmix" height=170></a>
   <br />
   <h3>A Virtual cafeteria that lets you chill and vibe with Lo-Fi and relax</h3>
   <a href="https://github.com/S-ayanide/Brewmix/blob/master/LICENSE">
@@ -13,7 +13,7 @@
   <br />
   <br />
   <div>
-    http://brewmix.studio
+    https://brewmix.vercel.app
   </div>
   <p>👉 If you like this repo then please give it a ⭐️</p>
   <br />
